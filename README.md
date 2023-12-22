@@ -10,13 +10,19 @@ folder, which houses a potential solution to the problem with completed code.
 
 list practice: 
 - `valid-word-checker`
+
 for-loop practice: 
+
 - `database-scanning`
+
 for-loop/while-loop practice: 
 - `password-strength`
+
 function practice: 
 - `word-counter`
+
 queue practice: 
 - `song-queuer`
+
 stack practice: 
 - `valid-parentheses`
