@@ -1,0 +1,10 @@
+hello True
+() True
+[] True
+([]) True
+([{}]) True
+[()] True
+})p[9_)] False
+[adsf{]} False
+))))))))))))))))) False
+((((((((((((((((( False
