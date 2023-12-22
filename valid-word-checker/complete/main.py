@@ -1,9 +1,11 @@
+import os
+
 # DICTIONARY LOOK-UP
 
 # This line of code creates a list containing 
 # a LARGE COLLECTION of valid words in the 
 # English dictionary, stored in `valid_words`:
-valid_words = [w.replace("\n", "").lower() for w in open("words.txt", "r").readlines()]
+valid_words = [w.replace("\n", "").lower() for w in open(os.path.dirname(__file__) + "/../words.txt", "r").readlines()]
 # Note: They are all stored in LOWERCASE!
 
 # STEP 1: Write code that prints out how many 
