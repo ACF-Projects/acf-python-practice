@@ -1,0 +1,21 @@
+131140155.5
+
+Rationale:
+-----------------------------------------------------------
+KEY ONE is 131 because input_one is treated as a STRING.
+input_one + "3" == "1313" thus requires input_one to be "131",
+as it is concatenated with "3".
+
+KEY TWO is 140 because input_one is converted into an INTEGER.
+We are comparing this integer 131, added to 9, equaling 140,
+to the INTEGER value of input_two. This requires input_two to be
+"140".
+
+KEY THREE is 155.5 because the first conditional restricts the
+value of input_three to be rounded down to 155. This is the natural
+behavior of the INTEGER typecast. We always cut off what is after a
+decimal point. Then, we are comparing input_three (a FLOAT) to see if
+it is equivalent to its rounded down version after subtracting 0.5.
+This means it has to be 0.5 above its integer representation. This
+requires input_three to be 155.5, with any amount of zeroes afterwards
+being allowed.

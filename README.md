@@ -8,6 +8,9 @@ Every subfolder contains files for the TEMPLATED Python assignment. This can be
 given to a student to complete. Each subfolder also contains a separate `complete`
 folder, which houses a potential solution to the problem with completed code.
 
+conditional practice:
+- `bank-cracker`
+
 list practice: 
 - `valid-word-checker`
 
