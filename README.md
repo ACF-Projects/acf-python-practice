@@ -9,26 +9,31 @@ given to a student to complete. Each subfolder also contains a separate `complet
 folder, which houses a potential solution to the problem with completed code.
 
 input practice:
-- [Kahoot link](https://play.kahoot.it/v2/?quizId=6372bfd5-97ae-4f63-8b18-bf3f44ccf8dc)
+- [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=6372bfd5-97ae-4f63-8b18-bf3f44ccf8dc)
 
 conditional practice:
 - `bank-cracker`
+- [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=16a1e9b8-bd6d-496f-82b7-d38973577b7c)
 
 list practice: 
 - `valid-word-checker`
+- [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=874fa8a0-a4b7-4673-8040-005db7118ba9)
 
 for-loop practice: 
 - `database-scanning`
+- [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=a6977ead-1e54-40b9-9ca2-470312072f3e)
 
 for-loop/while-loop practice: 
 - `password-strength`
+- [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=0655996e-1917-44a2-8157-f2203521676a)
 
 function practice: 
 - `word-counter`
+- [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=5f57d7aa-49eb-4ff0-b4ac-93ac761a56aa)
 - [Kahoot link for vocab](https://play.kahoot.it/v2/?quizId=ba829f77-4878-4540-8d53-46cf55d31a94)
 
 oop practice:
-- [Kahoot link](https://play.kahoot.it/v2/?quizId=44f51349-4de0-4d28-8667-8b911eef5519)
+- [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=44f51349-4de0-4d28-8667-8b911eef5519)
 
 queue practice: 
 - `song-queuer`
