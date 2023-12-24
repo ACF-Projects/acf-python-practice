@@ -1,4 +1,4 @@
-from bankcracker import *
+from bankcracker import log_error, print_cyan, print_green
 
 # BANK CRACKER
 
