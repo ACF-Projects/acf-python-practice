@@ -3,6 +3,15 @@ This folder contains a variety of other folders, each representing an assignment
 This list is not exhaustive and is vaguely sorted on difficulty. 
 Assignments further down typically require more Python background to complete. 
 
+## How To Use
+Every folder represents a single assignment, with comments inside of every file
+introducing the problem statement and required code. To work with the code:
+1. download the repository
+2. choose an assignment you'd like to complete (see the list below)
+3. find its respective folder and its `main.py` file (and other files in the folder if provided)
+4. ensure Python is installed on your computer and start coding!
+__Alternatively, you may also copy the code of a file and paste it into an environment that can run Python like [the Replit website](https://replit.com/~).__
+
 ## Folder Structure
 Every subfolder contains files for the TEMPLATED Python assignment. This can be
 given to a student to complete. Each subfolder also contains a separate `complete`
