@@ -9,8 +9,9 @@ introducing the problem statement and required code. To work with the code:
 1. download/clone this repository
 2. choose an assignment you'd like to complete (see the list below)
 3. find its respective folder and its `main.py` file (and other files in the folder if provided)
-4. ensure Python is installed on your computer and start coding!
-__Alternatively, you may also copy the code of a file and paste it into an environment that can run Python like [the Replit website](https://replit.com/~).__
+4. ensure Python is installed on your computer and start coding!<br/>
+
+_Alternatively, you may also copy the code of a file and paste it into an environment that can run Python like [the Replit website](https://replit.com/~)._
 
 ## Folder Structure
 Every subfolder contains files for the TEMPLATED Python assignment. This can be
