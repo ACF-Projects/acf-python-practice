@@ -50,3 +50,6 @@ queue practice:
 
 stack practice: 
 - `valid-parentheses`
+
+optimization practice:
+- `search-optimization`
