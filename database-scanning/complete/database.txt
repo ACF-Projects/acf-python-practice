@@ -1,0 +1,13 @@
+Kevin,CEO,137500
+Tracy,Secretary,78000
+Bob,Worker,32000
+Pete,Worker,27500
+Gavin,Worker,26000
+Mildew,Worker,31000
+Lucas,Worker,23500
+Ashley,Worker,46000
+Eric,Worker,32000
+Ariel,Worker,39000
+Chris,Worker,26000
+Catherine,Worker,31000
+Jacy,Worker,2350
