@@ -1,0 +1,11 @@
+say Hello! Program starting...
+add First
+add Second
+dump
+add Third
+say Added more stuff!
+dump
+add Fourth
+say Added a bit more stuff...
+dump
+say Program ending.
