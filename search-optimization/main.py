@@ -10,8 +10,9 @@ numbers, then tries to search for a specific element
 using both linear search and binary search, printing
 out the average times it took to run.
 
-Your job is only to implement the two functions in
-`searchfunc.py`.
+Your job is to implement the two functions in
+`searchfunc.py` and a function to time your code
+in `timefunc.py`.
 
 If there are any questions about this assignment, 
 feel free to ask questions!
@@ -25,12 +26,12 @@ print("SEARCHING FOR LAST ELEMENT:")
 total_time = 0
 for i in range(100):
     total_time += time_function(lambda: linear_search(a_list, 999999))
-print(f"Took {total_time / 100:.6f}ms (on average) to run linear search!")
+print(f"Took {total_time / 100:.6f} (average) to run linear search!")
 
 total_time = 0
 for i in range(100):
     total_time += time_function(lambda: binary_search(a_list, 999999))
-print(f"Took {total_time / 100:.6f}ms (on average) to run binary search!")
+print(f"Took {total_time / 100:.6f} (average) to run binary search!")
 
 # Searching for middle element:
 print("SEARCHING FOR MIDDLE ELEMENT:")
@@ -38,12 +39,12 @@ print("SEARCHING FOR MIDDLE ELEMENT:")
 total_time = 0
 for i in range(100):
     total_time += time_function(lambda: linear_search(a_list, 499999))
-print(f"Took {total_time / 100:.6f}ms (on average) to run linear search!")
+print(f"Took {total_time / 100:.6f} (average) to run linear search!")
 
 total_time = 0
 for i in range(100):
     total_time += time_function(lambda: binary_search(a_list, 499999))
-print(f"Took {total_time / 100:.6f}ms (on average) to run binary search!")
+print(f"Took {total_time / 100:.6f} (average) to run binary search!")
 
 # Searching for very first element:
 print("SEARCHING FOR FIRST ELEMENT:")
@@ -51,9 +52,9 @@ print("SEARCHING FOR FIRST ELEMENT:")
 total_time = 0
 for i in range(100):
     total_time += time_function(lambda: linear_search(a_list, 0))
-print(f"Took {total_time / 100:.6f}ms (on average) to run linear search!")
+print(f"Took {total_time / 100:.6f} (average) to run linear search!")
 
 total_time = 0
 for i in range(100):
     total_time += time_function(lambda: binary_search(a_list, 0))
-print(f"Took {total_time / 100:.6f}ms (on average) to run binary search!")
+print(f"Took {total_time / 100:.6f} (average) to run binary search!")
