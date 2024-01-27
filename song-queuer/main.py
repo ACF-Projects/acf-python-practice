@@ -1,6 +1,25 @@
 import time
-import myqueue
-import song
+
+"""
+Here, your task is to write code that mimics a playlist
+that plays songs in order! You must wait for songs to
+finish playing before going to the next song, until
+the playlist eventually plays all queued songs.
+
+To do this, it's a simple step-by-step process. First,
+you must parse through information in a text file 
+(see `songs.txt`), create Song() classes out of each
+(see `song.py`), and call `play_songs()` on each one.
+
+In `songs.txt`, every line is formatted in this way:
+[songnames]|[songtimes]
+
+[songnames] are strings and [songtimes] are floats, 
+both separated by commas (,). Check `songs.txt` out!
+
+If there are any questions about this
+assignment, feel free to ask questions!
+"""
 
 def play_songs(song_queue):
     """
@@ -19,23 +38,18 @@ def play_songs(song_queue):
         time.sleep(current_song.length)
     print("SONGBOT v1.0 | Songs done playing!\n")
 
-# First, write some code that creates a Queue. Put a few
-# songs inside. Then, call the `play_songs` function on
-# this queue.
+# As practice, try to write code that creates a Queue. 
+# Then, put a few self-created songs inside. 
+# (Think: how do you create a new Song?)
+# Then, call the `play_songs` function on the queue.
 
 
 
-# Now, you have to write some code that parses through 
-# all songs in `songs.txt` and calls `play_songs()` on 
-# each evaluated line.
-#
-# Every line is formatted in this way:
-# [songnames]|[songtimes]
-#
-# [songnames] are strings and [songtimes] are floats, 
-# both separated by commas (,).
+# Below, write the code that plays through the songs in
+# `songs.txt`. See more in the large comment above!
 
 cases = open("songs.txt")
 for s in cases.readlines():
     s = s.strip().split("|")
-    # Your code here
+    # Your code here (print statement is a placeholder)
+    print(s) 

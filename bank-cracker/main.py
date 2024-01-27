@@ -2,28 +2,31 @@ from bankcracker import log_error, print_cyan, print_green
 
 # BANK CRACKER
 
-# Welcome, hacker.
-# Your goal is to infiltrate the Bank of ACF to
-# test their security is as a white-hat hacker.
-# White-hat hackers ensure security of pre-existing
-# applications by attempting to access them
-# without malicious intent.
+"""
+Welcome, hacker.
 
-# You know that, to access their vault, you must
-# find the vault's secret security code, which is
-# compiled from typing THREE accurate passwords
-# into the Python script below.
+Your goal is to infiltrate the Bank of ACF to
+test their security is as a white-hat hacker.
+White-hat hackers ensure security of pre-existing
+applications by attempting to access them
+without malicious intent.
 
-# Your job is to read through the code and figure
-# out what to type in as input to the three
-# prompts. This means reading through the script
-# and learning what the conditionals check for,
-# instead of running the code and guessing.
+You know that, to access their vault, you must
+find the vault's secret security code, which is
+compiled from typing THREE accurate passwords
+into the Python script below.
 
-# The answer to your homework is the final
-# key that is obtained from this procedure.
+Your job is to read through the code and figure
+out what to type in as input to the three
+prompts. This means reading through the script
+and learning what the conditionals check for,
+instead of running the code and guessing.
 
-# Good luck!
+The answer to your homework is the final
+key that is obtained from this procedure.
+
+Good luck!
+"""
 
 print("-------------------------------------")
 print_cyan("<< WELCOME TO THE BOA SECURITY FORM >>")

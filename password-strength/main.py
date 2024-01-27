@@ -1,5 +1,15 @@
 # PASSWORD STRENGTH
 
+"""
+Here, your task is to write some code that
+runs through a list of passwords, report to the
+user how "strong" they are, and then fix them 
+to turn them into good passwords.
+
+If there are any questions about this
+assignment, feel free to ask questions!
+"""
+
 # Below is a list of strings called "passwords".
 # Every string represents somebody's password.
 # You do NOT need to modify this list.

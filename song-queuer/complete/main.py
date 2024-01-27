@@ -20,16 +20,6 @@ def play_songs(song_queue):
         time.sleep(current_song.length)
     print("SONGBOT v1.0 | Songs done playing!\n")
 
-# Now, you have to write some code that parses through 
-# all songs in `songs.txt` and calls `play_songs()` on 
-# each evaluated line.
-#
-# Every line is formatted in this way:
-# [songnames]|[songtimes]
-#
-# [songnames] are strings and [songtimes] are floats, 
-# both separated by commas (,).
-
 cases = open(os.path.dirname(__file__) + "/../songs.txt")
 for s in cases.readlines():
     s = s.strip().split("|")

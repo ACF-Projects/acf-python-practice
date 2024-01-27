@@ -1,5 +1,25 @@
 import mystack
 
+"""
+Here, your task is to implement the Stack data
+structure using Python's list structure. Find
+out which methods you need to implement in
+`mystack.py`!
+
+Then, afterwards, your job is to implement the
+`is_valid_parentheses` function below. Read the
+function comment below to learn more about it.
+
+We've provided some code already that runs the
+function against multiple "test cases". These are
+cases that will make sure your code is running as
+intended; you should see everything "pass the test
+case" if your code is written correctly. :)
+
+If there are any questions about this
+assignment, feel free to ask questions!
+"""
+
 def is_valid_parentheses(str):
   """
   When given a string `str` that holds a

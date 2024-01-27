@@ -1,12 +1,21 @@
 # DATABASE SCANNING
 
+"""
+Here, your task is to write some code that
+filters through a database of employee info 
+and find specific employees. Then, you will 
+also have to update the database to automate 
+some changes.
+
+If there are any questions about this
+assignment, feel free to ask questions!
+"""
+
 # The following includes our database list. 
-# You do NOT need to modify it in any way 
-# for this exercise.
-# It is a giant list with more lists inside. 
+# It is a big list containing inner lists. 
 # Each inner list follows the same order:
 # [ name, title, salary ]
-# name, title, and salary are ALL strings.
+# (Note: name, title, and salary are strings.)
 database = [n.strip().split(",") for n in open("database.txt").readlines()]
 
 # PART 1: Print the information of every 
