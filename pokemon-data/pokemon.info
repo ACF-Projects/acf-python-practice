@@ -1,0 +1,13 @@
+# NAME, TYPE, HEALTH, DAMAGE
+# All lines should follow the following format,
+# with no spaces in between commas.
+# These lines should be ignored (# in front)
+Charmander,fire,100,20
+Bulbasaur,grass,70,30
+Squirtle,water,80,25
+Rattata,normal,60,35
+Bidoof,normal,60,35
+Buizel,water,80,25
+Magmar,fire,50,30
+Sprigatito,grass,50,30
+Pidgey,normal,65,30

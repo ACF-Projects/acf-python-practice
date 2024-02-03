@@ -53,6 +53,10 @@ function practice:
 - [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=5f57d7aa-49eb-4ff0-b4ac-93ac761a56aa)
 - [Kahoot link for vocab](https://play.kahoot.it/v2/?quizId=ba829f77-4878-4540-8d53-46cf55d31a94)
 
+file reading/writing practice:
+
+- `pokemon-data`
+
 oop practice:
 
 - [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=44f51349-4de0-4d28-8667-8b911eef5519)
