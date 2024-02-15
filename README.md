@@ -1,6 +1,7 @@
 # ACF Python Repository
 
-This folder contains a variety of other folders, each representing an assignment.
+This folder contains a variety of assignments and demos to be used by ACF (Applied Computing Foundation) coaches.
+
 This list is not exhaustive and is vaguely sorted on difficulty.
 Assignments further down typically require more Python background to complete.
 
@@ -84,3 +85,8 @@ optimization practice:
 O(N) visualization + multithreading:
 
 -   `demos/my-timevisualizer`
+
+<br>
+<small><i>List compiled and projects developed by Lucas Wang.
+Inspiration for `bank-cracker` project taken from Stanford University, CS107.
+</i></small>
