@@ -1,3 +1,9 @@
+"""
+This script stores a few example functions that
+can be sent through the implemented timing functions
+in `timefunc.py` to visualize their time complexity.
+"""
+
 import time
 
 def bubble_sort(nums):
