@@ -1,4 +1,4 @@
-# ACF Practice Assignments (Python)
+# ACF Python Repository
 
 This folder contains a variety of other folders, each representing an assignment.
 This list is not exhaustive and is vaguely sorted on difficulty.
@@ -22,54 +22,65 @@ Every subfolder contains files for the TEMPLATED Python assignment. This can be
 given to a student to complete. Each subfolder also contains a separate `complete`
 folder, which houses a potential solution to the problem with completed code.
 
+(Alternatively, there is also a `demos` folder which contains completed projects.
+These may be shown to pique student interest.)
+
+### Practice Assignments
+
 input practice:
 
-- [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=6372bfd5-97ae-4f63-8b18-bf3f44ccf8dc)
+-   [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=6372bfd5-97ae-4f63-8b18-bf3f44ccf8dc)
 
 conditional practice:
 
-- `bank-cracker`
-- [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=16a1e9b8-bd6d-496f-82b7-d38973577b7c)
+-   `bank-cracker`
+-   [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=16a1e9b8-bd6d-496f-82b7-d38973577b7c)
 
 list practice:
 
-- `valid-word-checker`
-- [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=874fa8a0-a4b7-4673-8040-005db7118ba9)
+-   `valid-word-checker`
+-   [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=874fa8a0-a4b7-4673-8040-005db7118ba9)
 
 for-loop practice:
 
-- `database-scanning`
-- `program-language`
-- [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=a6977ead-1e54-40b9-9ca2-470312072f3e)
+-   `database-scanning`
+-   `program-language`
+-   [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=a6977ead-1e54-40b9-9ca2-470312072f3e)
 
 for-loop/while-loop practice:
 
-- `password-strength`
-- [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=0655996e-1917-44a2-8157-f2203521676a)
+-   `password-strength`
+-   [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=0655996e-1917-44a2-8157-f2203521676a)
 
 function practice:
 
-- `word-counter`
-- [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=5f57d7aa-49eb-4ff0-b4ac-93ac761a56aa)
-- [Kahoot link for vocab](https://play.kahoot.it/v2/?quizId=ba829f77-4878-4540-8d53-46cf55d31a94)
+-   `word-counter`
+-   [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=5f57d7aa-49eb-4ff0-b4ac-93ac761a56aa)
+-   [Kahoot link for vocab](https://play.kahoot.it/v2/?quizId=ba829f77-4878-4540-8d53-46cf55d31a94)
 
 file reading/writing practice:
 
-- `pokemon-data`
+-   `pokemon-data`
 
 oop practice:
 
-- [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=44f51349-4de0-4d28-8667-8b911eef5519)
+-   [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=44f51349-4de0-4d28-8667-8b911eef5519)
 
 queue practice:
 
-- `song-queuer`
+-   `song-queuer`
 
 stack practice:
 
-- `valid-parentheses`
+-   `valid-parentheses`
 
 optimization practice:
 
-- `search-optimization`
-- `sort-optimization`
+-   `search-optimization`
+-   `sort-optimization`
+
+### Demos
+
+O(N) visualization + multithreading:
+
+-   `demos/my-timevisualizer`
