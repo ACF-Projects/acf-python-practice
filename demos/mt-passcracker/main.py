@@ -5,11 +5,8 @@ import time
 passguess = input("Type a word you'd like the computer to guess (3-4 characters recommended). ")
 look_for = ""
 
-confirm = input("""Check for what? You may include multiple: 
-                Lowercase: 'l' 
-                Uppercase: 'u' 
-                Numbers: 'n' 
-                Symbols: 's'.\n""")
+confirm = input("""Check for what? Type one word with all desired characters (ex: 'luns' for all). 
+\tLowercase: 'l'\tUppercase: 'u'\tNumbers: 'n'\tSymbols: 's'.\n""")
 if "l" in confirm:
     look_for += string.ascii_lowercase
 if "u" in confirm:
@@ -23,10 +20,16 @@ debug = ""
 while debug != "yes" and debug != "no":
     debug = input("Do you want to debug? Type YES or NO ").lower()
 
+################################################################
+# Single thread execution
+################################################################
 start_time = time.time()
 single_attempts = single_guess(passguess, look_for, debug == "yes")
 single_guess_time = time.time() - start_time
 
+################################################################
+# Multiple thread execution
+################################################################
 start_time = time.time()
 multi_attempts = multi_guess(passguess, look_for, debug == "yes")
 multi_guess_time = time.time() - start_time
