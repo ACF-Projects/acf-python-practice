@@ -1,6 +1,6 @@
 # ACF Python Repository
 
-This folder contains a variety of assignments and demos to be used by ACF (Applied Computing Foundation) coaches.
+This repository contains a variety of assignments and demos to be used by ACF (Applied Computing Foundation) coaches.
 
 This list is not exhaustive and is vaguely sorted on difficulty.
 Assignments further down typically require more Python background to complete.
@@ -100,6 +100,11 @@ O(N) visualization + multithreading:
 
 -   `demos/my-timevisualizer`
     -   Visualize the power of various algorithms with the **matplotlib graphing library**! To speed things up, we can also use **multithreading: running code simultaneously** rather than waiting for old code to complete.
+
+Multithreaded password cracker:
+
+-   `demos/mt-passcracker`
+    -   See **a brute-force password cracker in Python**! Give it a string of characters to guess, and it'll loop through all possible combinations in an attempt to guess it. We can make this even faster with multithreading!!
 
 <br>
 <small><i>List compiled and projects developed by Lucas Wang.
