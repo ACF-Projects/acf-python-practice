@@ -26,7 +26,10 @@ lifelong learner"""
 # It takes a string input (typically a single 
 # character) and returns a list of the original 
 # string separated by the inputted character. 
-words = sentence.split(" ")
+# .strip() will remove newline characters (\n)
+# from the beginning/end of the string, so they
+# aren't present in the list.
+words = [w.strip() for w in sentence.split(" ")]
 
 # PART 1: Print out the `words` variable to see 
 # the list of words after splitting the sentence.

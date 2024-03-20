@@ -45,7 +45,6 @@ list practice:
 for-loop practice:
 
 -   `database-scanning`
--   `program-language`
 -   [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=a6977ead-1e54-40b9-9ca2-470312072f3e)
 
 for-loop/while-loop practice:
@@ -56,11 +55,13 @@ for-loop/while-loop practice:
 function practice:
 
 -   `word-counter`
+-   `custom-interpreter`
 -   [Kahoot link for understanding](https://play.kahoot.it/v2/?quizId=5f57d7aa-49eb-4ff0-b4ac-93ac761a56aa)
 -   [Kahoot link for vocab](https://play.kahoot.it/v2/?quizId=ba829f77-4878-4540-8d53-46cf55d31a94)
 
 file reading/writing practice:
 
+-   `explore-courses`
 -   `pokemon-data`
 
 oop practice:

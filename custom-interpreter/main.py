@@ -30,6 +30,8 @@ def eval_line(code):
     that are passed in. (See above for more
     information on possible commands.)
 
+    Ex: code = ["say", "hello", "world"]
+
     Your job is to implement this function.
     """
     # Print statement is placeholder code, 
