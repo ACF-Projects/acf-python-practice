@@ -98,7 +98,7 @@ optimization practice:
 
 O(N) visualization + multithreading:
 
--   `demos/my-timevisualizer`
+-   `demos/mt-timevisualizer`
     -   Visualize the power of various algorithms with the **matplotlib graphing library**! To speed things up, we can also use **multithreading: running code simultaneously** rather than waiting for old code to complete.
 
 Multithreaded password cracker:
